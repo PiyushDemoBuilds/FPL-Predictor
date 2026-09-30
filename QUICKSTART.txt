@@ -1,0 +1,18 @@
+FPL EDGE — QUICKSTART (Windows)
+================================
+
+1. Install Python 3.10+ from https://python.org — IMPORTANT: tick "Add Python to PATH".
+2. Double-click  SETUP.bat            (once: installs packages, checks data, trains models)
+3. Double-click  START_DASHBOARD.bat  (whenever you want to use it) -> http://localhost:7860 (Streamlit)
+
+Weekly routine after each gameweek:
+- Open the dashboard, click "Update everything" (≈1 min), review My Team + Season Plan.
+- UPDATE_WEEKLY.bat does the same without the browser.
+- Pundit rules built in: check Friday team news before locking transfers.
+
+Your team (6749446, XGBoost United) is preconfigured in config.json.
+
+Mac/Linux: pip install -r requirements.txt && python cli.py setup && python app.py
+
+Docs: README.md (overview) · PUNDIT_PLAYBOOK.md (the pundit research) ·
+      PROBLEMS_FOUND.md (what was wrong with v1) · outputs/GW2_BRIEF.md (current advice)

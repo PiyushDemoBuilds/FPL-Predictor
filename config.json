@@ -1,0 +1,17 @@
+{
+  "team_id": 6749446,
+  "horizon_gw": 5,
+  "max_hit_transfers": 2,
+  "captain_safe_mode": true,
+  "recency_half_life_gw": 14,
+  "threads": 24,
+  "history_seasons": [
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "live_season": "2026-27",
+  "bootstrap_ttl_sec": 300,
+  "summaries_ttl_sec": 21600
+}
